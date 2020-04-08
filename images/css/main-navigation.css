@@ -1,0 +1,146 @@
+.main-navigation
+{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    padding:20px;
+    background: rgba(1,1,1,0.5);
+}
+
+.main-navigation__inner
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width:1350px;
+}
+
+.main-navigation__menu
+{
+    display:flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+@media(max-width:991px)
+{
+    .main-navigation__menu
+    {
+        position:fixed;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        background:black;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        opacity:0;
+        pointer-events: none;
+    }
+}
+@media(max-width:991px)
+{
+    .main-navigation__menu--open
+    {
+        opacity:1;
+        pointer-events: unset;
+    }
+}
+
+.main-navigation__logo-img
+{
+    width:60px;
+    margin-right:20px;
+}
+
+@media(max-width: 991px){
+    .main-navigation__logo-img
+    {
+        width:40px;
+        margin-right: 15px;
+    }
+}
+
+
+.main-navigation__menu-item-icon
+{
+    width:20px;
+}
+
+.main-navigation__menu-item-anchor
+{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+
+@media(max-width: 1199px){
+    .main-navigation__menu-item-anchor
+    {
+        font-size:16px;
+    }
+}
+@media(max-width:991px)
+{
+    .main-navigation__menu-item-anchor
+    {
+        font-size:22px;
+    }
+}
+
+.main-navigation__logo-link
+{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    display:flex;
+    align-items: center;
+}
+
+@media(max-width: 991px){
+    .main-navigation__logo-link
+    {
+        font-size: 25px;
+    }
+}
+
+
+.main-navigation__menu-item
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    margin-left:40px;
+}
+@media(max-width:991px)
+{
+    .main-navigation__menu-item
+    {
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px 0px;
+        margin-left:0px;
+    }
+}
+
+@media(max-width: 1199px){
+    .main-navigation__menu-item
+    {
+        margin-left:30px;
+    }
+}
+.main-navigation__menu-item:hover
+{
+   border-bottom: 2px solid white;
+}
+@media(max-width: 991px){
+    .main-navigation__menu-item:hover
+    {
+        border-bottom: unset;
+    }
+}
