@@ -14,6 +14,7 @@
     <link href="css/container.css" rel="stylesheet">
     <link href="css/about-us.css" rel="stylesheet">
     <link href="css/main-navigation.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                     Polskie Smaki
                 </a>
             </div>
-            <ul class="main-navigation__menu">
+            <ul class="main-navigation__menu js-main-navigation__menu">
                 <li class="main-navigation__menu-item">
                     <a href="#" class="main-navigation__menu-item-anchor">
                         Home
@@ -62,26 +63,34 @@
                 </li>
                 <li class="main-navigation__menu-item">
                     <a href="https://www.instagram.com" class="main-navigation__menu-item-anchor" target="_blank">
-                        <img src="/images/icons/social/instagram.svg" class="main-navigation__menu-item-icon" alt="Instagram">
+                        <img src="/images/icons/social/instagram.svg" class="main-navigation__menu-item-icon"
+                            alt="Instagram">
                     </a>
                 </li>
                 </li>
                 <li class="main-navigation__menu-item">
                     <a href="https://www.facebook.com" class="main-navigation__menu-item-anchor" target="_blank">
-                        <img src="/images/icons/social/facebook.svg" class="main-navigation__menu-item-icon" alt="Facebook">
+                        <img src="/images/icons/social/facebook.svg" class="main-navigation__menu-item-icon"
+                            alt="Facebook">
                     </a>
                 </li>
             </ul>
+            <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+                <img src="/images/icons/navigation.svg" alt="Otworz/zamknij menu"
+                    class="main-navigation__mobile-button-img">
+            </button>
         </div>
     </nav>
-
+    <script src="main-navigation.js"></script>
 
     <section class="main_banner">
-        <a href="#about-us" class="main-banner__button-anchor"><div class="main-banner__button">Poznaj nas lepiej</div></a>
+        <a href="#about-us" class="main-banner__button-anchor">
+            <div class="main-banner__button">Poznaj nas lepiej</div>
+        </a>
     </section>
 
     <div class="container">
-        <section class="about-us">
+        <section class="about-us" id="about-us">
             <div class="about-us__text">
                 <h1 class="about-us__header">nie jesteśmy tylko restauracją</h1>
                 <p class="about-us__paragraph">Tworzymy zespół ludzi, których pasją jest dbanie o każdy detal, który
