@@ -6,6 +6,7 @@
     left:0;
     padding:20px;
     background: rgba(1,1,1,0.5);
+    z-index: 1;
 }
 
 .main-navigation__inner
