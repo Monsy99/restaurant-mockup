@@ -1,0 +1,140 @@
+.form-section {
+    display: flex;
+    align-items: center;
+    background: #1a2639;
+    color: white;
+}
+
+.form-section .container {
+    width: 65%;
+}
+
+@media(max-width:991px) {
+    .form-section .container {
+        width: 85%;
+    }
+}
+
+.contact-form__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:767px) {
+    .contact-form__info {
+        display: block;
+    }
+}
+
+.contact-form__info-link {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 4px;
+}
+
+@media(max-width:767px) {
+    .contact-form__info-link {
+        width: fit-content;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media(max-width:991px) {
+    .contact-form__info-link {
+        font-size: 23px;
+    }
+}
+
+@media(max-width:767px) {
+    .contact-form__info-link {
+        font-size: 16px;
+    }
+}
+
+.contact-form__info-link:hover {
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;
+}
+
+.contact-info__icon {
+    height: 35px;
+    padding-right: 10px;
+}
+
+.contact-form__text {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 15px 0;
+}
+
+@media(max-width:991px) {
+    .contact-form__text {
+        font-size: 16px;
+    }
+}
+
+.contact-info__item {
+    margin: 0 30px;
+}
+
+@media(max-width:767px) {
+    .contact-info__item {
+        margin: 0;
+    }
+}
+
+.contact-form__field {
+    background: #3e4a61;
+    border: none;
+    margin: 5px 5px;
+    padding: 15px;
+    width: calc(50% - 20px);
+    flex-grow: 1;
+    resize: none;
+}
+
+@media(max-width:767px) {
+    .contact-form__field {
+        width: 100%;
+    }
+}
+
+.contact-form__field::placeholder {
+    text-transform: uppercase;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+}
+
+.contact-form__submit-button {
+    padding: 15px 20px;
+    border: none;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media(max-width:767px) {
+    .contact-form__submit-button {
+        padding: 10px 12px;
+        font-size: 16px;
+    }
+}
+
+.contact-form__field-textarea {
+    width: 100%;
+}

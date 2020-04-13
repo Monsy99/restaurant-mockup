@@ -16,6 +16,7 @@
     <link href="css/bookmark.css" rel="stylesheet">
     <link href="css/menu-section.css" rel="stylesheet">
     <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
 
 </head>
 
@@ -406,9 +407,40 @@
         <h2 class="bookmark__header">Kontakt</h2>
         <p class="bookmark__description">Sprawdź jak się z nami skontaktować</p>
     </section>
-    <section class="bookmark bookmark--location" id="location">
-        <h2 class="bookmark__header">Jak dojechać</h2>
-        <p class="bookmark__description">Sprawdź jak nas znaleźć</p>
+
+    <section class="form-section">
+        <div class="container">
+            <div class="contact-form__info">
+                <div class="contact-info__item">
+                    <a class="contact-form__info-link" href="tel:530393651">
+                        <img class=" contact-info__icon " src="/images/icons/phone.svg "> 530 393 651
+                    </a>
+                </div>
+                <div class="contact-info__item ">
+                    <a href="mailto:szymon.marczukk@gmail.com " class="contact-form__info-link">
+                        <img class="contact-info__icon" src="/images/icons/envelope.svg "> szymon.marczukk@gmail.com
+                    </a>
+                </div>
+            </div>
+            <p class="contact-form__text">
+                Jeżeli nie znalazłeś na naszej stronie informacji, których potrzebujesz,<br> wyślij formularz kontaktowy lub zadzwoń.<br> Chętnie z Tobą porozmawiamy i odpowiemy na wszystkie pytania.
+            </p>
+
+            <form class="contact-form">
+                <input name="name" class="contact-form__field" required placeholder="Imię i nazwisko">
+                <input name="email" class="contact-form__field" required placeholder="Adres email">
+                <textarea class="contact-form__field contact-form__field-textarea" placeholder="Treść wiadomości" required rows="10"></textarea>
+
+                <button class="contact-form__submit-button" type="submit">
+                Wyślij
+            </button>
+            </form>
+
+        </div>
+    </section>
+    <section class="bookmark bookmark--location " id="location">
+        <h2 class="bookmark__header ">Jak dojechać</h2>
+        <p class="bookmark__description ">Sprawdź jak nas znaleźć</p>
     </section>
 </body>
 
