@@ -18,19 +18,19 @@
 }
 .bookmark--menu
 {
-    background-image: url("/images/bookmarks/menu.jpg");
+    background-image: url("../../images/bookmarks/menu.jpg");
 }
 .bookmark--gallery
 {
-    background-image: url("/images/bookmarks/gallery.jpg");
+    background-image: url("../../images/bookmarks/gallery.jpg");
 }
 .bookmark--contact
 {
-    background-image: url("/images/bookmarks/contact.jpg");
+    background-image: url("../../images/bookmarks/contact.jpg");
 }
 .bookmark--location
 {
-    background-image: url("/images/bookmarks/route.jpg");
+    background-image: url("../../images/bookmarks/route.jpg");
 }
 
 .bookmark::after{
