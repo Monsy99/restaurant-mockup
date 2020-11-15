@@ -5,7 +5,7 @@
     align-items:center;
     background-position: center center;
     height:100vh;
-    background-image: url(/images/banner.jpg);
+    background-image: url("./images/banner.jpg");
 }
 .main-banner__button
 {
