@@ -4,7 +4,7 @@
 
 This repo is a mockup of a restaurant website that  
 contains example information about Menu, an example Gallery,  
-a contact form and a map to display restaurant's location
+a contact form, and a map to display the restaurant's location
 
 [LIVE-PREVIEW](monsy99.github.io/restaurant-mockup)
 
